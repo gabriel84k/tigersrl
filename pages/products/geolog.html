@@ -21,6 +21,14 @@
     <link rel="stylesheet" href="../../assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="../../assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="../../assets/css/main.css" />
+    <!-- ========================= JS here ========================= -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+       function onSubmit(token) {
+         document.getElementById("demo-form").submit();
+       }
+    </script>
   </head>
 
   <body>
@@ -261,7 +269,7 @@
                   <a href="#"><i class="lni lni-twitter-original"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni lni-instagram"></i></a>
+                  <a href="https://instagram.com/tigersrl?igshid=YmMyMTA2M2Y="><i class="lni lni-instagram"></i></a>
                 </li>
               </ul>
             </div>
@@ -509,9 +517,11 @@
                 <div class="contact-form-head">
                   <div class="form-main">
                     <form
-                      class="form"
-                      method="post"
-                      action="../../../../../../assets/mail/mail.php"
+                       id='demo-form'
+                        class="form"
+                        method="post"
+                        
+                        action="../../FormContact/Contact.php"
                     >
                       <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
@@ -564,9 +574,13 @@
                         </div>
                         <div class="col-12">
                           <div class="form-group button">
-                            <button type="submit" class="btn">
+                            <button  type="submit" class="g-recaptcha btn" data-sitekey="6LdYiFofAAAAAARfRHAdzt6L8USMLK9FgzmBCSNW" data-callback='onSubmit'>
                               Enviar mensaje
+                               <div id="send" class="" role="status">
+    
+                                </div>
                             </button>
+                             
                           </div>
                         </div>
                       </div>
@@ -659,7 +673,7 @@
                         >
                       </li>
                       <li>
-                        <a href="#"
+                        <a href="https://instagram.com/tigersrl?igshid=YmMyMTA2M2Y="
                           ><i class="lni lni-instagram"></i
                           ><span>Instagram</span></a
                         >
@@ -707,6 +721,7 @@
     </a>
 
     <!-- ========================= JS here ========================= -->
+       <script src="../../assets/js/contact.js"></script>
     <script src="../../assets/js/bootstrap.min.js"></script>
     <script src="../../assets/js/tiny-slider.js"></script>
     <script src="../../assets/js/glightbox.min.js"></script>

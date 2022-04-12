@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body bgColor="grey">
+    <form action="Contact.php" method="POST" name="formx">
+        <table width="450px">
+            <tr>
+                <td valign="top">
+                    <label for="Nombre">Nombre</label>
+                </td>
+                <td valign="top">
+                    <input type="text" name="Nombre" maxlength="50" size="30">
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <label for="Apellido">Apellido</label>
+                </td>
+                <td valign="top">
+                    <input type="text" name="Apellido" maxlength="50" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <label for="email">Email</label>
+                </td>
+                <td valign="top">
+                    <input type="text" name="email" maxlength="80" size="30">
+                </td>
+
+            </tr>
+            <tr>
+                <td valign="top">
+                    <label for="comentario">Comentario</label>
+                </td>
+                <td valign="top">
+                    <textarea name="comentario" maxlength="1000" cols="25" rows="6"></textarea>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+        <div class="g-recaptcha" data-sitekey="6LeXlJ8UAAAAAIBMyoexfSQ5ycN6VQLmd6xu25Au"></div>
+    </form>
+</body>
+
+</html>

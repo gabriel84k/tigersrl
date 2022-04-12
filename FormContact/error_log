@@ -1,0 +1,92 @@
+[08-Apr-2022 16:47:27 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 16:47:27 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 16:48:50 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 16:48:50 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 17:04:32 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Undefined constant "success" in /home/tigersrl/public_html/FormContact/Contact.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 13
+[08-Apr-2022 17:08:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Undefined constant "success" in /home/tigersrl/public_html/FormContact/Contact.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 13
+[08-Apr-2022 17:08:15 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Undefined constant "success" in /home/tigersrl/public_html/FormContact/Contact.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 13
+[08-Apr-2022 17:09:29 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Undefined constant "success" in /home/tigersrl/public_html/FormContact/Contact.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 13
+[08-Apr-2022 17:15:20 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "recaptcha_response" in /home/tigersrl/public_html/FormContact/Contact.php on line 8
+[08-Apr-2022 17:15:20 America/Argentina/Buenos_Aires] PHP Warning:  Undefined property: stdClass::$score in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 17:15:20 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $response in /home/tigersrl/public_html/FormContact/Contact.php on line 19
+[08-Apr-2022 17:17:07 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "recaptcha_response" in /home/tigersrl/public_html/FormContact/Contact.php on line 8
+[08-Apr-2022 17:17:07 America/Argentina/Buenos_Aires] PHP Warning:  Undefined property: stdClass::$score in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 17:17:07 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $response in /home/tigersrl/public_html/FormContact/Contact.php on line 19
+[08-Apr-2022 17:17:34 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "recaptcha_response" in /home/tigersrl/public_html/FormContact/Contact.php on line 8
+[08-Apr-2022 17:17:34 America/Argentina/Buenos_Aires] PHP Warning:  Undefined property: stdClass::$score in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 17:17:34 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $response in /home/tigersrl/public_html/FormContact/Contact.php on line 19
+[08-Apr-2022 17:18:48 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "recaptcha_response" in /home/tigersrl/public_html/FormContact/Contact.php on line 8
+[08-Apr-2022 17:18:48 America/Argentina/Buenos_Aires] PHP Warning:  Undefined property: stdClass::$score in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 17:18:48 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $response in /home/tigersrl/public_html/FormContact/Contact.php on line 19
+[08-Apr-2022 17:19:27 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "recaptcha_response" in /home/tigersrl/public_html/FormContact/Contact.php on line 8
+[08-Apr-2022 17:19:27 America/Argentina/Buenos_Aires] PHP Warning:  Undefined property: stdClass::$score in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 17:19:27 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $response in /home/tigersrl/public_html/FormContact/Contact.php on line 19
+[08-Apr-2022 17:23:07 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "recaptcha_response" in /home/tigersrl/public_html/FormContact/Contact.php on line 8
+[08-Apr-2022 17:23:07 America/Argentina/Buenos_Aires] PHP Warning:  Undefined property: stdClass::$score in /home/tigersrl/public_html/FormContact/Contact.php on line 11
+[08-Apr-2022 17:23:07 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $response in /home/tigersrl/public_html/FormContact/Contact.php on line 19
+[08-Apr-2022 17:27:50 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "token" in /home/tigersrl/public_html/FormContact/Contact.php on line 16
+[08-Apr-2022 17:27:50 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "action" in /home/tigersrl/public_html/FormContact/Contact.php on line 17
+[08-Apr-2022 17:31:19 America/Argentina/Buenos_Aires] PHP Warning:  require_once(recaptchalib.php): Failed to open stream: No such file or directory in /home/tigersrl/public_html/FormContact/Contact.php on line 4
+[08-Apr-2022 17:31:19 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Failed opening required 'recaptchalib.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tigersrl/public_html/FormContact/Contact.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 4
+[08-Apr-2022 17:36:51 America/Argentina/Buenos_Aires] PHP Warning:  require(component/recaptcha/src/autoload.php): Failed to open stream: No such file or directory in /home/tigersrl/public_html/FormContact/Contact.php on line 7
+[08-Apr-2022 17:36:51 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Failed opening required 'component/recaptcha/src/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tigersrl/public_html/FormContact/Contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 7
+[08-Apr-2022 17:39:16 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class "ReCaptchaReCaptcha" not found in /home/tigersrl/public_html/FormContact/Contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 9
+[08-Apr-2022 17:41:07 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class "ReCaptchaReCaptcha" not found in /home/tigersrl/public_html/FormContact/Contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 9
+[08-Apr-2022 17:51:37 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class "ReCaptchaReCaptcha" not found in /home/tigersrl/public_html/FormContact/Contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 9
+[08-Apr-2022 17:52:35 America/Argentina/Buenos_Aires] PHP Warning:  require_once(core/core.php): Failed to open stream: No such file or directory in /home/tigersrl/public_html/FormContact/Contact.php on line 5
+[08-Apr-2022 17:52:35 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Failed opening required 'core/core.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tigersrl/public_html/FormContact/Contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 5
+[08-Apr-2022 17:53:07 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class "CONFIG" not found in /home/tigersrl/public_html/FormContact/Contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/tigersrl/public_html/FormContact/Contact.php on line 7
+[08-Apr-2022 17:54:39 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $secret in /home/tigersrl/public_html/FormContact/Contact.php on line 7
+[08-Apr-2022 17:54:39 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught RuntimeException: No secret provided in /home/tigersrl/public_html/FormContact/ReCaptcha/ReCaptcha.php:136
+Stack trace:
+#0 /home/tigersrl/public_html/FormContact/Contact.php(7): ReCaptcha\ReCaptcha->__construct()
+#1 {main}
+  thrown in /home/tigersrl/public_html/FormContact/ReCaptcha/ReCaptcha.php on line 136
+[08-Apr-2022 17:55:12 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $gRecaptchaResponse in /home/tigersrl/public_html/FormContact/Contact.php on line 9
+[08-Apr-2022 17:55:12 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $remoteIp in /home/tigersrl/public_html/FormContact/Contact.php on line 9
+[08-Apr-2022 17:57:36 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $gRecaptchaResponse in /home/tigersrl/public_html/FormContact/Contact.php on line 9
+[08-Apr-2022 17:57:36 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $remoteIp in /home/tigersrl/public_html/FormContact/Contact.php on line 9
+[08-Apr-2022 17:59:05 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $remoteIp in /home/tigersrl/public_html/FormContact/Contact.php on line 10
+[08-Apr-2022 17:59:47 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "HTTP_CLIENT_IP" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 18:00:08 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "REMOTE_IP" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 18:00:46 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "HTTP_CLIENT_IP" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 18:04:22 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "HTTP_CLIENT_IP" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 18:08:22 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "HTTP_CLIENT_IP" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 18:15:38 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "menssage" in /home/tigersrl/public_html/FormContact/Contact.php on line 18
+[08-Apr-2022 18:50:41 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 18:51:28 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[08-Apr-2022 18:52:34 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
+[11-Apr-2022 17:05:58 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/tigersrl/public_html/FormContact/Contact.php on line 6
