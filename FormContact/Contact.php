@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
+ob_start();
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -46,68 +47,84 @@ $remoteIp =$_SERVER['REMOTE_ADDR'];
             //Content
             $mail->isHTML(true);                                  //Set email format to HTML
             $mail->Subject = 'Solicito Información';
-            $mail->Body ='<section class="section blog-single">
-                    <div class="container">
-                        <div class="row" id="19/08/2015">
-                        <div class="col-lg-12 col-md-12 col-12 mb-5">
-                            <div class="single-inner">
-                            <div class="post-details">
-                                <div class="main-content-head">
-                                <div class="meta-information">
-                                    <h2 class="post-title">
-                                    <a href="#">Airtracker Versión 10.70.07B (19/08/2015).</a>
-                                    </h2>
-                                </div>
-                                <div class="detail-inner">
-                                    <p>
-                                    Está disponible la versión 10.70.07 B para el banderillero
-                                    satelital Airtracker. La misma incluye una corrección
-                                    importante para solucionar problemas de fecha de algunos
-                                    modelos de GPS:
-                                    </p>
-                                    <h3>Novedades</h3>
-                                    <ul class="list">
-                                    <li>
-                                        <i class="lni lni-checkmark-circle"></i> Ver novedades
-                                        de la versión 10.70.06
-                                    </li>
-                                    <li>
-                                        <i class="lni lni-checkmark-circle"></i> Ver novedades
-                                        de la versión 10.60.04
-                                    </li>
-                                    <li>
-                                        <i class="lni lni-checkmark-circle"></i> Ver novedades
-                                        de la versión 10.60.02
-                                    </li>
-                                    <li>
-                                        <i class="lni lni-checkmark-circle"></i> Ver novedades
-                                        de la versión 10.60.00B
-                                    </li>
-                                    <li>
-                                        <i class="lni lni-checkmark-circle"></i> Ver novedades
-                                        de la versión 10.50.05
-                                    </li>
-                                    </ul>
-                                    <h3>Novedades</h3>
-                                    <p>
-                                    Version 10 en adelante ya no maneja mas la tarjeta
-                                    loggycard
-                                    </p>
-                                </div>
-                                </div>
+            $mail->Body ='<!DOCTYPE html>
+            <html class="no-js" lang="zxx">
+                <body>
+                    <div class="preloader">
+                        <div class="preloader-inner">
+                            <div class="preloader-icon">
+                                <span></span>
+                                <span></span>
                             </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
-                </section>';
-           
-            //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-        
-           
+                    <header class="header navbar-area">
+                        <div class="header-middle">
+                            <div class="container">
+                            <div class="row align-items-center">
+                                
+                                <div class="col-lg-5 col-md-7 d-xs-none">
+                                <!-- Start Main Menu Search -->
+                                <h2 class="title">Tiger SRL</h2>
+                                <p>Agricultura de Precisión - Enlaces de microondas</p>
+                                <!-- End Main Menu Search -->
+                                </div>
+                                <div class="col-lg-6 col-md-3 col-5">
+                                <div class="middle-right-area">
+                                    <div class="nav-hotline">
+                                    <i class="lni lni-phone"></i>
+                                    <h3>
+                                        Teléfono/Fax:
+                                        <span>(0342) 4535313 - 4560074</span>
+                                    </h3>
+                                    </div>
+                                
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </header>
+                    <section class="hero-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 col-12 custom-padding-right">
+                                    <div class="slider-head">
+                                        <div class="hero-slider">
+                                            <div class="content">
+                                                <h2>
+                                                <span>Solicitud de Información</span>
+                                            
+                                                </h2>
+                                                <p>
+                                                    Nombre : '.$nombre.'
+                                                </p>
+                                                <p>
+                                                    Email : '.$email.'
+                                                </p>
+                                                <p>
+                                                    Telefono : '.$telefono.'
+                                                </p>
+                                                <p>
+                                                    Mensaje : '.$comentario.'
+                                                </p>
+
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </body>
+            </html>';
             if ($mail->Send()) { 
-                header("Location:/messaje.html");//echo "Message Sent!";            
+                header_remove();
+                header("Location: /messaje.html");
+                      
             }
+            ob_end_flush();
         } catch (Exception $e) {
             header("Location: /{$mail->ErrorInfo}");
            
@@ -119,6 +136,4 @@ $remoteIp =$_SERVER['REMOTE_ADDR'];
         $respuesta = "ERROR al enviar el msj";
     }
 ?>
-
-
 
